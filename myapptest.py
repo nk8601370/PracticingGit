@@ -29,7 +29,7 @@ class TestStringMethods(unittest.TestCase):
     # Returns TRUE if the string is in uppercase
     # else returns False.
     def test_isupper(self):        
-        self.assertTrue('FOo'.isupper())
+        self.assertTrue('FOO'.isupper())
         self.assertFalse('Foo'.isupper())
   
     # Returns true if the string is stripped and 
