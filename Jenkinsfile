@@ -1,7 +1,7 @@
 pipeline {
 	agent any
 	triggers {
-        pollSCM('* * * * *') //runs this pipeline on every commit
+        pollSCM('* * * * *') //runs this pipeline on every commits
         cron('30 23 * * *') //run at 23:30:00 
     }
 	stages {
